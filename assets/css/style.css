@@ -22,3 +22,17 @@ h2{
     float: left;
     font-size: 280%;
 }
+
+#menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    float: right;
+    
+}
+
+#menu li {
+    
+    margin-right: 30px;
+    display: inline-block;
+}
