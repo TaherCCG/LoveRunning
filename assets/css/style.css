@@ -202,10 +202,6 @@ hr {
     color: #fafafa;
 }
 
-#times div div{
-    background-color: rgba(241, 109, 107, .5);
-}
-
 footer{
     height: 150px;
 
@@ -264,6 +260,16 @@ footer{
 
     hr{
         display: none;
+    }
+
+    #times div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        border-style: solid;
+        border-bottom: 1px;
+        border-color: #fff;
+        padding: 0;
     }
     
 }
