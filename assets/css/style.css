@@ -11,7 +11,8 @@ body {
     color:#777777;
 }
 
-h2{
+/* headings and logo */
+h1, h2{
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -24,20 +25,19 @@ h2{
     margin-left: 30px;
 }
 
+/* navigation links */
 #menu{
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
-    float: right;
-    
+    float: right;    
 }
 
 #logo, #menu{
     line-height: 75px;
 }
 
-#menu li {
-    
+#menu li {    
     margin-right: 30px;
     display: inline-block;
 }
@@ -55,11 +55,13 @@ h2{
     border-bottom: 1px solid #777777;
 }
 
+/* Hero image and cover text */
 #hero-image{
     height:600px;
     width: 100%;
     background:url(../img/main-image.png) no-repeat center center;
 
+    /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -72,6 +74,7 @@ h2{
     position: relative;
 }
 
+/* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -105,6 +108,7 @@ h2{
     position: absolute;
 }
 
+/* Club ethos */
 #club-ethos{
     height: 600px;
 }
@@ -137,7 +141,6 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-
 }
 
 .right-about-heading {
@@ -187,6 +190,7 @@ hr {
     overflow: hidden;
 }
 
+/* Event times */
 #times div{
     color: #fafafa;
     background-color: rgba(0,0,0,.6);
@@ -202,9 +206,9 @@ hr {
     color: #fafafa;
 }
 
+/* Footer */
 footer{
     height: 150px;
-
 }
 
 .social-networks{
@@ -222,6 +226,7 @@ footer{
     color: #777777;
 }
 
+/* Gallery Photos */
 #photo {
     clear: both;
     line-height: 0;
@@ -233,6 +238,19 @@ footer{
     width: 100%;
 }
 
+/* Form Section */
+.form-section {
+    clear: both;
+    background: url("../img/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+
+/* Media queries */
+
+/* For large to medium screens sizes from 1200px wide and down */
 @media screen and (max-width:1393px){
     #club-ethos {
         width: 65%;
@@ -274,6 +292,7 @@ footer{
     
 }
 
+/* For medium screens sizes from 950px wide and down */
 @media screen and (max-width:943px){
     #menu{
         clear: left;
@@ -313,18 +332,12 @@ footer{
     }
 }
 
+/* For small screens sizes from 800px wide and down */
 @media screen and (max-width:800px){
     #photo {
         column-count: 2;
     }
 }
 
-.form-section {
-    clear: both;
-    background: url("../img/formbg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
 
-}
 
