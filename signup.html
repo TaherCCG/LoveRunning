@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Love Running</title>
+    <!-- Script to use fontawesome icons -->
     <script src="https://kit.fontawesome.com/3982258271.js"></script>
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
   </head>
@@ -33,30 +34,26 @@
     <!-- Form Section -->
     <section class="form-section">
         <form class="signup-form" method="post" action="https://formdump.codeinstitute.net/">
-            
-            <h2>Let's get you signed up!</h2>
-           
-           
+            <!-- Form Heading -->
+            <h2>Let's get you signed up!</h2>           
+            <!-- First Name -->
             <label for="fname">First Name</label>
             <input class="text-input" id="fname" type="text" name="first_name" required>
-       
+            <!-- Last Name -->
             <label for="lname">Last Name</label>
             <input class="text-input" id="lname" type="text" name="last_name" required>
-          
+            <!-- Email -->
             <label for="email">Email Address</label>
             <input class="text-input" id="email" type="email" name="email_address" required>
-           
+            <!-- Running Preferences Radio buttons-->
             <label for="road">Road</label>
             <input id="road" name="running_preference" value="road" type="radio" required>
-            
             <label for="trail">Trail</label>
             <input id="trail" name="running_preference" value="trail" type="radio">
-            
             <label for="both">Both</label>
             <input id="both" name="running_preference" value="both" type="radio">
-            
-            <input class="join-button" type="submit" name="submit" value="Let's Run!">
-            
+            <!-- Submit -->
+            <input class="join-button" type="submit" name="submit" value="Let's Run!">            
         </form>
     </section>
 
