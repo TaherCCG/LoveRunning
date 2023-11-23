@@ -1,50 +1,53 @@
+/* Import google fonts family : Lato and Oswald */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald');
 
-*{
-    margin:0;
-    padding:0;
-    border:0;
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 body {
     font-family: Lato;
-    color:#777777;
+    color: #777777;
 }
 
 /* headings and logo */
-h1, h2{
+h1,
+h2 {
     font-family: Oswald;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555555;
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
 }
 
 /* navigation links */
-#menu{
+#menu {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
-    float: right;    
+    float: right;
 }
 
-#logo, #menu{
+#logo,
+#menu {
     line-height: 75px;
 }
 
-#menu li {    
+#menu li {
     margin-right: 30px;
     display: inline-block;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;    
+    color: inherit;
 }
 
 #menu a:hover {
@@ -56,10 +59,10 @@ h1, h2{
 }
 
 /* Hero image and cover text */
-#hero-image{
-    height:600px;
+#hero-image {
+    height: 600px;
     width: 100%;
-    background:url(../img/main-image.png) no-repeat center center;
+    background: url(../img/main-image.png) no-repeat center center;
 
     /* Animates zoom effect on loading the page */
     animation-name: hero-zoom;
@@ -69,26 +72,28 @@ h1, h2{
 
 #hero-outer {
     height: 600px;
-    width:100%;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 /* Creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
 }
 
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: #ffffff;
 }
 
-#cover-text{
+#cover-text {
     font-size: 130%;
     font-family: Oswald;
     text-transform: uppercase;
@@ -109,23 +114,23 @@ h1, h2{
 }
 
 /* Club ethos */
-#club-ethos{
+#club-ethos {
     height: 600px;
 }
 
-#left-about{
+#left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-about{
+#right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-about{
+#center-about {
     width: 33%;
     margin: 0 auto;
 }
@@ -135,6 +140,7 @@ hr {
     width: 100%;
     margin: 5px 0;
 }
+
 .left-about-heading {
     width: 50%;
     float: right;
@@ -154,6 +160,7 @@ hr {
 .right-about-heading h2 {
     text-align: right;
 }
+
 .right-about-heading p {
     text-align: right;
 }
@@ -164,7 +171,7 @@ hr {
     font-size: 280%;
 }
 
-#circle-container{
+#circle-container {
     width: 300px;
     height: 300px;
     padding: 30px;
@@ -175,13 +182,13 @@ hr {
     margin: 0 auto;
 }
 
-#circle-cover-bg{
+#circle-cover-bg {
     background: url(../img/video-mask.png) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
-#times{
+#times {
     background: url(../img/dublin-city.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,9 +198,9 @@ hr {
 }
 
 /* Event times */
-#times div{
+#times div {
     color: #fafafa;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     width: 19%;
     height: 300px;
     float: left;
@@ -202,20 +209,20 @@ hr {
     margin: 2px;
 }
 
-#times h2{
+#times h2 {
     color: #fafafa;
 }
 
 /* Footer */
-footer{
+footer {
     height: 150px;
 }
 
-.social-networks{
-    text-align: center;   
+.social-networks {
+    text-align: center;
 }
 
-.social-networks li{
+.social-networks li {
     display: inline;
 }
 
@@ -248,58 +255,58 @@ footer{
 }
 
 .signup-form {
-    margin-top:150px;
-    color:#fff;
-    background-color:rgba(60, 60, 60, 0.6);
-    max-width:400px;
-    position:absolute;
-    left:10%;
-    padding:30px;
+    margin-top: 150px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
 }
 
 .signup-form h2 {
-    color:#fafafa;
-    margin-bottom:20px;
+    color: #fafafa;
+    margin-bottom: 20px;
 }
 
 .text-input {
-    background:transparent;
-    color:#fafafa;
-    width:100%;
-    height:25px;
-    margin:5px 0 20px 0;
-    border:1px solid #fafafa;
-    border-radius:2px;
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color:#f16c6b;
+    border-color: #f16c6b;
 }
 
 .join-button {
-    margin-top:20px;
-    border-radius:2px;
-    padding:15px 32px 15px 32px;
-    text-align:center;
-    font-size:100%;
-    background-color:#f16c6b;
-    color:#fafafa;
-    display:block;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
 }
 
 .join-button:hover {
-    background-color:#fafafa;
-    color:#f16c6b;
+    background-color: #fafafa;
+    color: #f16c6b;
 }
 
 
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width:1393px){
+@media screen and (max-width:1393px) {
     #club-ethos {
         width: 65%;
-        height:1200px;
+        height: 1200px;
         margin: 0 auto;
     }
 
@@ -308,7 +315,8 @@ footer{
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
@@ -318,10 +326,10 @@ footer{
         clear: both;
         width: 100%;
         float: left;
-        padding: o;
+        padding: 0;
     }
 
-    hr{
+    hr {
         display: none;
     }
 
@@ -333,12 +341,12 @@ footer{
         border-bottom: 1px;
         border-color: #fff;
         padding: 0;
-    }    
+    }
 }
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width:943px){
-    #menu{
+@media screen and (max-width:943px) {
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px;
@@ -357,16 +365,19 @@ footer{
 
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-about-heading,
+    .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-about-heading h2,
+    .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-about-heading p,
+    .right-about-heading p {
         text-align: center;
         padding: 0 20px 0 20px;
     }
@@ -377,7 +388,7 @@ footer{
 }
 
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width:800px){
+@media screen and (max-width:800px) {
     #photo {
         column-count: 2;
     }
