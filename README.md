@@ -31,4 +31,5 @@ This site can be accessed <a href="">here</a>
 <li>As a frequent visitor, I want to see if there are any updated events that I can take part in. </li>
 <li>As a frequent visitor, I want to have option to connect to social media, so I can share the events I participated in with friends. </li>
 </ul>
+
 <hr>
