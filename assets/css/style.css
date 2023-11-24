@@ -392,4 +392,8 @@ footer {
     #photo {
         column-count: 2;
     }
+
+    .form-section {
+        max-width: 300px;
+    }
 }
