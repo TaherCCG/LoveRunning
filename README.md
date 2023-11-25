@@ -236,9 +236,21 @@ This site can be accessed <a href="https://taherccg.github.io/LoveRunning/">here
 ### Browser Tests
 <ul>
 <li>Chrome</li>
+
+![chrome](/documentation/chrome.gif)
+
 <li>Firefox</li>
+
+![firefox](/documentation/firefox.gif)
+
 <li>Brave</li>
+
+![brave](/documentation/brave.gif)
+
 <li>Opera</li>
+
+![opera](/documentation/opera.gif)
+
 </ul>
 
 ### W3C Validators
