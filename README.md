@@ -257,6 +257,22 @@ This site can be accessed <a href="https://taherccg.github.io/LoveRunning/">here
 
 <ul>
 <li>HTML</li>
+<ul>
+<li>index.html</li>
+
+![index](/documentation/index.png)
+<li>gallery.html</li>
+
+![gallery](/documentation/gallery.png)
+<li>signup.html</li>
+
+![signup](/documentation/signup.png)
+</ul>
 <li>CSS</li>
+<ul>
+<li>style.css</li>
+
+![style-css](/documentation/style-css.png)
+</ul>
 </ul>
 
