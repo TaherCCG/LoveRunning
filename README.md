@@ -230,3 +230,33 @@ This site can be accessed <a href="https://taherccg.github.io/LoveRunning/">here
 <li>Add user account page so they can see how much have they ran in km/mi by participating in events.</li>
 </ol>
 <hr>
+
+## Testing
+
+### Browser Tests
+<ul>
+<li>Chrome</li>
+
+![chrome](/documentation/chrome.gif)
+
+<li>Firefox</li>
+
+![firefox](/documentation/firefox.gif)
+
+<li>Brave</li>
+
+![brave](/documentation/brave.gif)
+
+<li>Opera</li>
+
+![opera](/documentation/opera.gif)
+
+</ul>
+
+### W3C Validators
+
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
+
