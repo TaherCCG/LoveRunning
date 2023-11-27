@@ -1,4 +1,12 @@
 # LoveRunning
+## Personal Note
+
+Although this project is a walkthrough / follow along project for Full Stack Web Application Development lv5 course.  I did the README.md documentation by my self to practice documenting what I did for the project.   I also used issues in GitHub Projects to write this documentation so I can get familiar using GitHub Projects.   
+
+By doing this documentation I have an idea on what the documentation requires and how to use GitHub projects.
+<hr>
+
+
 ![Love Running](documentation/loverunning-logo.png)
 
 Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
@@ -288,4 +296,12 @@ This project is deployed on my GitHub account.
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://taherccg.github.io/LoveRunning/ 
+
+## Credits 
+
+All credits goto Code Institute as this is a walkthrough / follow along project for Full Stack Web Application Development lv5 course. 
+
+### Content
+
+All content was written while following the project videos for Full Stack Web Application Development lv5 course.
 
