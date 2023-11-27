@@ -276,3 +276,16 @@ This site can be accessed <a href="https://taherccg.github.io/LoveRunning/">here
 </ul>
 </ul>
 
+<hr>
+
+## Deployment
+
+This project is deployed on my GitHub account.
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the main (master) Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://taherccg.github.io/LoveRunning/ 
+
