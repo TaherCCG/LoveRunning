@@ -41,6 +41,22 @@ This site can be accessed <a href="https://taherccg.github.io/LoveRunning/">here
 </ul>
 <hr>
 
+## Wireframe
+
+### Home Page Wireframe
+
+<ul>
+<li>Desktop Wireframe</li>
+
+![desktop-wireframe](/documentation/wf-home-desktop.png)
+<li>Tablet Wireframe</li>
+
+![tablet-wireframe](/documentation/wf-home-tablet.png)
+<li>Mobile Phone Wireframe</li>
+
+![mobil-phone-wireframe](/documentation/wf-home-phone.png)
+</ul>
+<hr>
 
 ## Features
 
