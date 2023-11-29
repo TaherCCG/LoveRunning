@@ -257,6 +257,8 @@ This site can be accessed <a href="https://taherccg.github.io/LoveRunning/">here
 
 ## Testing
 
+I tested the website in different browsers and validated the code on W3C Validators.
+
 ### Browser Tests
 <ul>
 <li>Chrome</li>
@@ -299,7 +301,22 @@ This site can be accessed <a href="https://taherccg.github.io/LoveRunning/">here
 ![style-css](/documentation/style-css.png)
 </ul>
 </ul>
+<hr>
 
+## Technologies Used
+
+<ul>
+<li><a href="https://www.w3schools.com/html/">HTML</a> was used for structure of the site.</li>
+<li><a href="https://www.w3schools.com/css/default.asp">CSS</a> was used for style and layout.</li>
+<li><a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid</a> was used for gallery page</li>
+<li><a href="https://balsamiq.com/">Balsamiq</a> was used to make the wireframe.</li>
+<li><a href="https://code.visualstudio.com/">VS Code</a> was used as main tool to write and edit code.</li>
+<li><a href="https://git-scm.com/">Git</a> was used in terminal for version control of the site.</li>
+<li><a href="https://github.com/">GitHub</a> was used to store code online and host the website.</li>
+<li><a href="https://github.com/phw/peek">Peek</a> was used to make animated gif for the documentation README.md file.</li>
+<li><a href="https://validator.w3.org/">HTML W3C Validator</a> was used to validate all HTML pages.</li>
+<li><a href="https://jigsaw.w3.org/css-validator/">CSS W3C Jigsaw Validator</a> was used to validate styles.css</li>
+</ul>
 <hr>
 
 ## Deployment
@@ -320,4 +337,7 @@ All credits goto Code Institute as this is a walkthrough / follow along project 
 ### Content
 
 All content was written while following the project videos for Full Stack Web Application Development lv5 course.
+
+
+
 
